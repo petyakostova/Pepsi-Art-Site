@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Edwardian Script ITC';
+    src: url('../fonts/Edwardian Script ITC/Edwardian Script ITC.TTF');
+}
+
+@font-face {
+    font-family: 'Lymbo';
+    src: url('../fonts/Lymbo/Lymbo.ttf');
+}
+
+html, body {
+    font-family: 'Georgia', 'Calibri';
+    font-size: 18px;
+    /* padding: 0;
+    margin: 0 auto; */
+    color: black;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    height: 120px;
+    background-color: #EAE4DB;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+#logo-and-slogan {
+    height: 120px;
+    display: inline-block;
+}
+
+#logo {
+    height: 120px;
+    width: 120px;
+    float: left;
+}
+
+#logo ul li a img {
+    height: 120px;
+    width: 120px;
+}
+
+#separator {
+    float: left;
+    height: 100px;
+    width: 8px;
+    margin: 10px;
+    background-color: #A12013;
+}
+
+#slogan {
+    float: left;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#slogan h1 {
+    font-family: 'Lymbo';
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #A12013;
+    align-self: flex-start;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin-top: 80px;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 26px;
+}
+
+nav ul li a {    
+    text-decoration: none;
+    font-weight: bold;
+    color: #A12013;         
+}
+
