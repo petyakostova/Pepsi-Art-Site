@@ -28,9 +28,9 @@ header {
     background-color: #EAE4DB;
     padding-left: 10px;
     padding-right: 20px;
-    /* fixed header by scrolling TOADD*/
-    /* width: 100%;
-    position: fixed; */
+    /* fixed header by scrolling STEP 1*/
+    width: 100%;
+    position: fixed;
     /* top: 0; */
 }
 
@@ -83,6 +83,8 @@ nav {
 
 nav ul {
     margin-top: 80px;
+    /* fixed header by scrolling STEP 3*/
+    margin-right: 30px; 
 }
 
 nav ul li {
@@ -102,7 +104,8 @@ nav ul li a:hover {
 
 #content {
     width: 100%;
-    /* TOADD */
+    /* fixed header by scrolling STEP 2 */
+    padding-top: 120px;
 }
 
 #messages {
