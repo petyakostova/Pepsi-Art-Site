@@ -109,10 +109,11 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.centered {
-    width: 700px;
+.centered, .title {
     margin: 0 auto;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 #main-message {
@@ -125,6 +126,7 @@ nav ul li a:hover {
 
 hr {
     height: 1px;
+    width: 600px;
     background-color: #A12013;
     margin-bottom: 20px;
 }
@@ -139,12 +141,18 @@ hr {
 #let-me-button {
     background-color: #A12013;
     display: inline-block;
-    padding: 10px;
     border-radius: 5px;
+    padding: 10px;
 }
 
 #let-me-button a {
     text-transform: uppercase;
     text-decoration: none;
     color: white;
+}
+
+.title {
+    font-size: 1.8em;
+    color: #A12013;
+    font-weight: bold;
 }
