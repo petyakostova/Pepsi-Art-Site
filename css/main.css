@@ -99,8 +99,24 @@ nav ul li a {
     color: #A12013;
 }
 
-nav ul li a:hover {
+/* nav ul li a:hover {
     color: #000000;
+} */
+
+/* rainbow Text when hover */
+
+nav ul li a:hover {
+    background: #ffaf4b;
+    background: -moz-linear-gradient(-45deg, #ffaf4b 0%, #f50e0e 0%, #ed1111 0%, #ee1313 1%, #f72525 9%, #f2eb29 24%, #f2eb29 33%, #57f028 41%, #2853de 63%, #2853de 74%, #2853de 74%, #2b51db 75%, #3b42c8 81%, #70128c 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #ffaf4b), color-stop(0%, #f50e0e), color-stop(0%, #ed1111), color-stop(1%, #ee1313), color-stop(9%, #f72525), color-stop(24%, #f2eb29), color-stop(33%, #f2eb29), color-stop(41%, #57f028), color-stop(63%, #2853de), color-stop(74%, #2853de), color-stop(74%, #2853de), color-stop(75%, #2b51db), color-stop(81%, #3b42c8), color-stop(100%, #70128c));
+    background: -webkit-linear-gradient(-45deg, #ffaf4b 0%, #f50e0e 0%, #ed1111 0%, #ee1313 1%, #f72525 9%, #f2eb29 24%, #f2eb29 33%, #57f028 41%, #2853de 63%, #2853de 74%, #2853de 74%, #2b51db 75%, #3b42c8 81%, #70128c 100%);
+    background: -o-linear-gradient(-45deg, #ffaf4b 0%, #f50e0e 0%, #ed1111 0%, #ee1313 1%, #f72525 9%, #f2eb29 24%, #f2eb29 33%, #57f028 41%, #2853de 63%, #2853de 74%, #2853de 74%, #2b51db 75%, #3b42c8 81%, #70128c 100%);
+    background: -ms-linear-gradient(-45deg, #ffaf4b 0%, #f50e0e 0%, #ed1111 0%, #ee1313 1%, #f72525 9%, #f2eb29 24%, #f2eb29 33%, #57f028 41%, #2853de 63%, #2853de 74%, #2853de 74%, #2b51db 75%, #3b42c8 81%, #70128c 100%);
+    background: linear-gradient(135deg, #ffaf4b 0%, #f50e0e 0%, #ed1111 0%, #ee1313 1%, #f72525 9%, #f2eb29 24%, #f2eb29 33%, #57f028 41%, #2853de 63%, #2853de 74%, #2853de 74%, #2b51db 75%, #3b42c8 81%, #70128c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#70128c', GradientType=1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.4vw;
 }
 
 #content {
@@ -122,7 +138,7 @@ nav ul li a:hover {
     margin: 0 auto;
     text-align: center;
     margin-top: 25px;
-    margin-bottom: 100px;
+    margin-bottom: 125px;
 }
 
 #main-message {
@@ -154,7 +170,7 @@ hr {
     padding: 10px;
 }
 
-/* rainbow when hover */
+/* rainbow background when hover */
 
 .let-me-help:hover, .learn-more:hover {
     background: #ffaf4b;
