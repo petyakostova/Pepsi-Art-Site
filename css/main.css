@@ -244,27 +244,27 @@ hr {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     overflow: auto;
     align-content: center;
 }
 
 .column-content {
     width: 25%;
-    /* display: inline-block; */
-    display: flex;
+    display: inline-block;
     align-items: center;
-    /* justify-content: center; */
     flex-direction: column;
     /* align-self: flex-start;   */
-    float: left;
     /* text-align: center;     */
-    border: 1px solid blue;
+    /* justify-content: center; */
+    /* border: 1px solid blue; */
+    /* display: flex; */
+    /* float: left; */
 }
 
 .content-icon {
-    border: 1px solid green;
     margin-bottom: 20px;
+    /* border: 1px solid green; */
 }
 
 .content-icon i {
@@ -291,3 +291,4 @@ hr {
 span {
     font-weight: bold;
 }
+
