@@ -282,6 +282,8 @@ hr {
 
 .article-content h3 {
     font-weight: bold;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
 }
 
 .article-content p {
