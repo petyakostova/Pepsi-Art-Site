@@ -145,10 +145,26 @@ hr {
     padding: 10px;
 }
 
+#let-me-button:hover {
+    background: #ffaf4b;
+    background: -moz-linear-gradient(left, #ffaf4b 0%, #f50e0e 0%, #ed1111 0%, #ee1313 1%, #f72525 9%, #f2eb29 24%, #f2eb29 33%, #57f028 41%, #2853de 63%, #2853de 74%, #2853de 74%, #2b51db 75%, #3b42c8 81%, #70128c 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #ffaf4b), color-stop(0%, #f50e0e), color-stop(0%, #ed1111), color-stop(1%, #ee1313), color-stop(9%, #f72525), color-stop(24%, #f2eb29), color-stop(33%, #f2eb29), color-stop(41%, #57f028), color-stop(63%, #2853de), color-stop(74%, #2853de), color-stop(74%, #2853de), color-stop(75%, #2b51db), color-stop(81%, #3b42c8), color-stop(100%, #70128c));
+    background: -webkit-linear-gradient(left, #ffaf4b 0%, #f50e0e 0%, #ed1111 0%, #ee1313 1%, #f72525 9%, #f2eb29 24%, #f2eb29 33%, #57f028 41%, #2853de 63%, #2853de 74%, #2853de 74%, #2b51db 75%, #3b42c8 81%, #70128c 100%);
+    background: -o-linear-gradient(left, #ffaf4b 0%, #f50e0e 0%, #ed1111 0%, #ee1313 1%, #f72525 9%, #f2eb29 24%, #f2eb29 33%, #57f028 41%, #2853de 63%, #2853de 74%, #2853de 74%, #2b51db 75%, #3b42c8 81%, #70128c 100%);
+    background: -ms-linear-gradient(left, #ffaf4b 0%, #f50e0e 0%, #ed1111 0%, #ee1313 1%, #f72525 9%, #f2eb29 24%, #f2eb29 33%, #57f028 41%, #2853de 63%, #2853de 74%, #2853de 74%, #2b51db 75%, #3b42c8 81%, #70128c 100%);
+    background: linear-gradient(to right, #ffaf4b 0%, #f50e0e 0%, #ed1111 0%, #ee1313 1%, #f72525 9%, #f2eb29 24%, #f2eb29 33%, #57f028 41%, #2853de 63%, #2853de 74%, #2853de 74%, #2b51db 75%, #3b42c8 81%, #70128c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#70128c', GradientType=1);
+}
+
 #let-me-button a {
     text-transform: uppercase;
     text-decoration: none;
     color: white;
+}
+
+#let-me-button a:hover{
+    color: black;  
+    /* font-weight: bold;       */
 }
 
 .title {
