@@ -82,7 +82,8 @@ nav {
 }
 
 nav ul {
-    margin-top: 80px;
+    margin-top: 50px;
+    /* margin-top: 80px; */
     /* fixed header by scrolling STEP 3*/
     margin-right: 30px;
 }
@@ -358,9 +359,7 @@ address {
     margin-right: 0.5em;
 }
 
-.footer-contacts ul li a:hover {
-    
-}
+.footer-contacts ul li a:hover {}
 
 .footer-contacts ul li a i {
     color: #A12013;
