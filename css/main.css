@@ -13,7 +13,7 @@ html, body {
     font-size: 20px;
     /* padding: 0;
     margin: 0 auto; */
-    color: black;
+    color: #000000;
     background-color: #FFFFFF;
     width: 100%;
 }
@@ -99,7 +99,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: black;
+    color: #000000;
 }
 
 #content {
@@ -169,11 +169,11 @@ hr {
 .let-me-help a, .learn-more a {
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
 }
 
 .let-me-help a:hover, .learn-more a:hover {
-    color: black;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -231,7 +231,7 @@ hr {
 .title {
     margin: 0 auto;
     text-align: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     font-size: 1.8em;
     color: #A12013;
     font-weight: bold;
@@ -290,7 +290,92 @@ hr {
     margin: 1px 5px;
 }
 
-span {
+.bold {
     font-weight: bold;
 }
 
+#my-mission {
+    margin-bottom: 100px;
+}
+
+#my-mission img {
+    width: 40%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#my-mission p {
+    font-weight: bold;
+}
+
+/* TODO Last Posts */
+
+footer {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+
+address {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#go-back-to-top {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+#go-back-to-top i {
+    border: 3px solid #A12013;
+    border-radius: 50%;
+    padding: 8px;
+    color: #000000;
+}
+
+.footer-contacts {
+    margin-bottom: 0.75em;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer-contacts h4 {
+    margin-bottom: 0.75em;
+}
+
+.footer-social-links {
+    display: inline-block;
+}
+
+/* .footer-contacts ul {
+} */
+
+.footer-contacts ul li {
+    float: left;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.footer-contacts ul li a:hover {
+    
+}
+
+.footer-contacts ul li a i {
+    color: #A12013;
+}
+
+.author {
+    margin-bottom: 0.75em;
+}
+
+.red {
+    color: #A12013;
+}
+
+.author i {
+    color: #A12013;
+}
+
+.footer-copyright {}
