@@ -84,7 +84,7 @@ nav {
 nav ul {
     margin-top: 80px;
     /* fixed header by scrolling STEP 3*/
-    margin-right: 30px; 
+    margin-right: 30px;
 }
 
 nav ul li {
@@ -121,7 +121,11 @@ nav ul li a:hover {
     margin: 0 auto;
     text-align: center;
     margin-top: 50px;
+}
+
+.centered {
     margin-bottom: 100px;
+    border: 1px solid goldenrod;
 }
 
 #main-message {
@@ -134,7 +138,7 @@ nav ul li a:hover {
 
 hr {
     height: 1px;
-    width: 600px;
+    width: 10em;
     background-color: #A12013;
     margin-bottom: 20px;
 }
@@ -217,6 +221,51 @@ hr {
 .title {
     font-size: 1.8em;
     color: #A12013;
+    font-weight: bold;
+    /* margin-bottom: 100px; */
+}
+
+.column-content {
+    width: 25%;    
+    /* display: inline-block; */    
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-self: flex-start;   */
+    float: left;  
+    /* text-align: center;     */
+    border: 1px solid blue;
+    margin-bottom: 100px;
+}
+
+.content-icon {
+    border: 1px solid green;
+    margin-bottom: 20px;
+}
+
+.content-icon i {
+    border: 3px solid #A12013;
+    border-radius: 50%;
+    padding: 20px;
+    /* border-radius: 5px 20px 5px;
+    padding: 10px;         */
+    /* height: 100%; */
+}
+
+.article-content {
+    margin: 15px 3px;
+}
+
+.article-content h3 {
+    font-weight: bold;
+}
+
+.article-content p {
+    margin: 1px 5px;
+}
+
+span {
     font-weight: bold;
 }
 
