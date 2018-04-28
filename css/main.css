@@ -105,22 +105,31 @@ nav ul li a {
     width: 100%;
 }
 
-#main-message {
-    /* width: auto;
-    margin: 0 auto; */
-    
-    
-    font-size: 2em;
+.centered{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main-message {    
+    font-size: 1.8em;
     color: #A12013;
-    /* font-weight: bold; */
-    margin-bottom: 10px;    
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+
+hr {
+    height: 1px;
+    background-color: #A12013;
+    margin-bottom: 20px;
 }
 
 #message {
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #A12013;    
-    /* font-weight: bold; */    
-    margin-bottom: 10px;
+    font-weight: bold;   
+    margin-bottom: 30px;    
 }
 
 #let-me-button{
@@ -135,14 +144,4 @@ nav ul li a {
     text-decoration: none;
     color: white;    
 }
-
-/* form[name=let-me-button]{
-    background-color: #A12013;
-    text-transform: uppercase;
-    color: white;
-    padding: 10px;
-    display: inline-block;
-    border-radius: 5px;
-}*/
-
 
