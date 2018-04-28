@@ -92,6 +92,10 @@ nav ul li a {
     color: #A12013;
 }
 
+nav ul li a:hover {
+    color: black;
+}
+
 #content {
     width: 100%;
 }
@@ -105,18 +109,18 @@ nav ul li a {
     width: 100%;
 }
 
-.centered{
+.centered {
     width: 700px;
     margin: 0 auto;
     text-align: center;
 }
 
-#main-message {    
+#main-message {
     font-size: 1.8em;
     color: #A12013;
     font-weight: bold;
     margin-top: 20px;
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
 }
 
 hr {
@@ -127,21 +131,20 @@ hr {
 
 #message {
     font-size: 1.3em;
-    color: #A12013;    
-    font-weight: bold;   
-    margin-bottom: 30px;    
+    color: #A12013;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
-#let-me-button{
+#let-me-button {
     background-color: #A12013;
     display: inline-block;
-    padding: 10px;    
+    padding: 10px;
     border-radius: 5px;
 }
 
-#let-me-button a{
+#let-me-button a {
     text-transform: uppercase;
     text-decoration: none;
-    color: white;    
+    color: white;
 }
-
