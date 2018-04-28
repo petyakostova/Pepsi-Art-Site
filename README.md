@@ -11,7 +11,7 @@ Final Project in HTML & CSS Course
 
 ## Copyright Notice
 
-All artworks in this website are copyrighted and owned by the artist Petya Kostova. Any reproduction, modification, publication, transmission, transfer, or exploitation of any of the content, for personal or commercial use, whether in whole or in part, without written permission is copyright infringement and prohibited. 
+**All artworks in this website are copyrighted and owned by the artist Petya Kostova. Any reproduction, modification, publication, transmission, transfer, or exploitation of any of the content, for personal or commercial use, whether in whole or in part, without written permission is copyright infringement and prohibited.** 
 
 **All Rights Reserved © Petya Kostova 2018**
 
