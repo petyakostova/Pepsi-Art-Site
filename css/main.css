@@ -146,7 +146,7 @@ hr {
     margin-bottom: 30px;
 }
 
-#let-me-button {
+.let-me-help {
     background-color: #A12013;
     display: inline-block;
     border-radius: 5px;
@@ -192,7 +192,7 @@ hr {
     }
 }
 
-#let-me-button:hover {
+.let-me-help:hover {
     background: #ffaf4b;
     background: -moz-linear-gradient(-45deg, #ffaf4b 0%, #f50e0e 0%, #ed1111 0%, #ee1313 1%, #f72525 9%, #f2eb29 24%, #f2eb29 33%, #57f028 41%, #2853de 63%, #2853de 74%, #2853de 74%, #2b51db 75%, #3b42c8 81%, #70128c 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, #ffaf4b), color-stop(0%, #f50e0e), color-stop(0%, #ed1111), color-stop(1%, #ee1313), color-stop(9%, #f72525), color-stop(24%, #f2eb29), color-stop(33%, #f2eb29), color-stop(41%, #57f028), color-stop(63%, #2853de), color-stop(74%, #2853de), color-stop(74%, #2853de), color-stop(75%, #2b51db), color-stop(81%, #3b42c8), color-stop(100%, #70128c));
@@ -203,13 +203,13 @@ hr {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#70128c', GradientType=1);
 }
 
-#let-me-button a {
+.let-me-help a {
     text-transform: uppercase;
     text-decoration: none;
     color: white;
 }
 
-#let-me-button a:hover {
+.let-me-help a:hover {
     color: black;
     font-weight: bold;
 }
@@ -219,3 +219,5 @@ hr {
     color: #A12013;
     font-weight: bold;
 }
+
+
