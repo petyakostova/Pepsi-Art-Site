@@ -2,7 +2,7 @@
 
 ###### Final Project in HTML & CSS Course
 
-**Pepsi Art Site** is a site for my facebook page Pepsi Art (my artworks) using HTML and CSS.
+**Pepsi Art Site** is a site for my [Facebook page Pepsi Art (my artworks)](https://www.facebook.com/PepsiArtBG/ "Facebook page Pepsi Art (my artworks)") using HTML and CSS.
 
 **Originally developed by:**
 * Petya Kostova => [petyakostova](https://github.com/petyakostova)
