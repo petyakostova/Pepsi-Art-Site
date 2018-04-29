@@ -344,6 +344,7 @@ address {
 
 .footer-contacts h4 {
     margin-bottom: 0.75em;
+    font-size: 1.2em;
 }
 
 .footer-social-links {
@@ -399,7 +400,15 @@ address {
 #copyright-notice {
     padding: 0;
     margin: 0 auto;
-    
-    align-content: center;
-    text-align: center;
+}
+
+.do-you-want-it{
+    font-size: 1.3em;
+    margin-bottom: 20px;    
+}
+
+#deep-purple-website img{
+    max-width: 45%;
+    height: auto;
+    margin-bottom: 40px;
 }
