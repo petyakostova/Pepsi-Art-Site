@@ -98,18 +98,9 @@ nav ul li a {
     text-decoration: none;
 }
 
-.bar {
-    display: none;
-    color: #A12013;
-}
-
-.bar:hover {
-    color: #000000;
-}
-
 /* rainbow nav Text when hover */
 
-nav ul li a:hover, {
+nav ul li a:hover {
     background: #ffaf4b;
     background: -moz-linear-gradient(-45deg, #ffaf4b 0%, #f50e0e 0%, #ed1111 0%, #f03838 11%, #fc0000 28%, #f2eb29 33%, #f2eb29 33%, #57f028 41%, #2853de 63%, #2853de 74%, #2853de 74%, #2b51db 75%, #3b42c8 81%, #70128c 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, #ffaf4b), color-stop(0%, #f50e0e), color-stop(0%, #ed1111), color-stop(11%, #f03838), color-stop(28%, #fc0000), color-stop(33%, #f2eb29), color-stop(33%, #f2eb29), color-stop(41%, #57f028), color-stop(63%, #2853de), color-stop(74%, #2853de), color-stop(74%, #2853de), color-stop(75%, #2b51db), color-stop(81%, #3b42c8), color-stop(100%, #70128c));
@@ -123,6 +114,15 @@ nav ul li a:hover, {
     -webkit-text-fill-color: transparent;
 }
 
+.bar {
+    display: none;
+    color: #A12013;
+}
+
+.bar:hover {
+    color: #000000;
+}
+
 @media screen and (max-width: 1224px) {
     .bar {
         display: inline;
@@ -131,7 +131,6 @@ nav ul li a:hover, {
         display: none;
     }
 }
-
 
 #content {
     width: 100%;
@@ -312,20 +311,6 @@ hr {
     font-weight: bold;
 }
 
-/* #my-mission {
-    margin-bottom: 100px;
-}
-
-#my-mission img {
-    width: 40%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-#my-mission p {
-    font-weight: bold;
-} */
-
 footer {
     margin-bottom: 0;
     padding-bottom: 50px;
@@ -386,3 +371,17 @@ address {
 .author i {
     color: #A12013;
 }
+
+/* #my-mission {
+    margin-bottom: 100px;
+}
+
+#my-mission img {
+    width: 40%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#my-mission p {
+    font-weight: bold;
+} */
