@@ -22,16 +22,16 @@ html, body {
     width: 100%;
 }
 
-#wrapper {
+/* #wrapper {
     width: 100%;
     margin: 0 auto;
-}
+} */
 
 header {
     height: 120px;
     background-color: #EAE4DB;
     padding-left: 10px;
-    padding-right: 20px;
+    padding-right: 15px;
     /* fixed header by scrolling STEP 1*/
     width: 100%;
     position: fixed;
@@ -47,19 +47,19 @@ header {
 
 #logo {
     height: 120px;
-    width: 120px;
+    width: auto;
     float: left;
 }
 
-#logo ul li a img {
+#logo a img {
     height: 120px;
-    width: 120px;
+    width: auto;
 }
 
 #separator {
     float: left;
     height: 100px;
-    width: 8px;
+    width: 5px;
     margin: 10px;
     background-color: #A12013;
 }
@@ -71,7 +71,6 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
@@ -90,7 +89,6 @@ nav {
 
 nav ul {
     margin-top: 50px;
-    /* margin-top: 80px; */
     /* fixed header by scrolling STEP 3*/
     margin-right: 30px;
 }
@@ -101,14 +99,11 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
     font-weight: bold;
+    font-size: 1.1em;
     color: #A12013;
+    text-decoration: none;
 }
-
-/* nav ul li a:hover {
-    color: #000000;
-} */
 
 /* rainbow nav Text when hover */
 
@@ -124,7 +119,6 @@ nav ul li a:hover {
     /* for the text */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 1.4vw;
 }
 
 #content {
@@ -143,7 +137,6 @@ nav ul li a:hover {
 }
 
 .centered {
-    margin: 0 auto;
     text-align: center;
     margin-top: 25px;
     margin-bottom: 125px;
@@ -151,14 +144,14 @@ nav ul li a:hover {
 
 #main-message {
     font-size: 1.8em;
-    color: #A12013;
     font-weight: bold;
+    color: #A12013;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 hr {
-    height: 1px;
+    height: 5px;
     width: 10em;
     background-color: #A12013;
     margin-bottom: 20px;
@@ -374,16 +367,11 @@ address {
     display: inline-block;
 }
 
-/* .footer-contacts ul {
-} */
-
 .footer-contacts ul li {
     float: left;
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
-
-.footer-contacts ul li a:hover {}
 
 .footer-contacts ul li a i {
     color: #A12013;
@@ -400,5 +388,3 @@ address {
 .author i {
     color: #A12013;
 }
-
-.footer-copyright {}
