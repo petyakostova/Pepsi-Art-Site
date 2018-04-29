@@ -35,7 +35,7 @@ header {
     /* fixed header by scrolling STEP 1*/
     width: 100%;
     position: fixed;
-    top: 0;
+    /* top: 0; */
     /* header to be in front of #let-me-help "LET ME HELP YOU" */
     z-index: 1;
 }
@@ -67,6 +67,7 @@ header {
 #slogan {
     float: left;
     height: 100px;
+    margin-top: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
