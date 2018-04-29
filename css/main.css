@@ -8,12 +8,6 @@
     src: url('../fonts/Lymbo/Lymbo.ttf');
 }
 
-/* * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0 auto; 
-} */
-
 html, body {
     font-family: 'Georgia', 'Calibri';
     font-size: 20px;
@@ -21,11 +15,6 @@ html, body {
     background-color: #FFFFFF;
     width: 100%;
 }
-
-/* #wrapper {
-    width: 100%;
-    margin: 0 auto;
-} */
 
 header {
     height: 120px;
@@ -198,7 +187,6 @@ hr {
 /* chake it */
 
 #let-me-help {
-    /* padding: 10px; */
     animation: shake 3s;
     animation-iteration-count: infinite;
 }
@@ -242,77 +230,64 @@ hr {
 #help {
     margin: 0 auto;
     text-align: center;
-    /* align-content: center; */
-    /* width: 100%; */
 }
 
 .title {
     margin: 0 auto;
     text-align: center;
-    /* margin-top: 50px; */
     font-size: 1.8em;
     color: #A12013;
     font-weight: bold;
-    /* margin-bottom: 100px; */
 }
 
 .centered-columns {
     display: inline-block;
-    margin: 0 auto;
-    text-align: center;
+    width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
-    /* border: 1px solid red; */
-    overflow: auto;
-    align-content: center;
+    border: 1px solid yellow;
 }
 
-.column-content {
-    width: 25%;
-    display: inline-block;
-    align-items: center;
-    flex-direction: column;
-    /* align-self: flex-start;   */
-    /* text-align: center;     */
-    /* justify-content: center; */
-    /* border: 1px solid blue; */
-    /* display: flex; */
-    /* float: left; */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 1px;
 }
 
-.content-icon {
+@media screen and (max-width: 992px) {
+    .column {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+.icon {
     margin-bottom: 20px;
-    /* border: 1px solid green; */
+    border: 1px solid green;
 }
 
-.content-icon i {
+.icon i {
     border: 3px solid #A12013;
     border-radius: 50%;
     padding: 20px;
-    /* border-radius: 5px 20px 5px;
-    padding: 10px;         */
-    /* height: 100%; */
 }
 
-.article-content {
-    margin: 15px 3px;
+.column-content {
+    margin: 15px 0px;
+    border: 1px solid red;
 }
 
-.article-content h3 {
+.column-content h3 {
     font-weight: bold;
     margin-bottom: 0.5em;
     text-decoration: underline;
-}
-
-.article-content p {
-    margin: 1px 5px;
 }
 
 .bold {
     font-weight: bold;
 }
 
-#my-mission {
+/* #my-mission {
     margin-bottom: 100px;
 }
 
@@ -324,9 +299,7 @@ hr {
 
 #my-mission p {
     font-weight: bold;
-}
-
-/* TODO Last Posts */
+} */
 
 footer {
     margin-bottom: 0;
