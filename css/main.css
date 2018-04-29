@@ -372,16 +372,34 @@ address {
     color: #A12013;
 }
 
-/* #my-mission {
-    margin-bottom: 100px;
+#my-mission {
+    margin: 20px;
+    padding: 20px;
 }
 
 #my-mission img {
-    width: 40%;
+    max-width: 45%;
     height: auto;
-    margin-bottom: 15px;
+    float: left;
+    margin: 20px;
 }
 
 #my-mission p {
-    font-weight: bold;
-} */
+    font-size: 1.aem;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+#interests li {
+    margin-left: 20px;
+    list-style-type: disc;
+    text-align: justify
+}
+
+#copyright-notice {
+    padding: 0;
+    margin: 0 auto;
+    
+    align-content: center;
+    text-align: center;
+}
