@@ -402,13 +402,21 @@ address {
     margin: 0 auto;
 }
 
-.do-you-want-it{
+.do-you-want-it {
     font-size: 1.3em;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
-#deep-purple-website img{
+#deep-purple-website img {
     max-width: 45%;
     height: auto;
     margin-bottom: 40px;
 }
+
+.logo-format-pic img {
+    display: inline-block;
+    max-width: 320px;
+    height: auto;
+    margin: 40px;
+}
+
