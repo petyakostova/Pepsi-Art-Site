@@ -433,3 +433,17 @@ address {
     height: auto;
     margin: 40px;
 }
+
+.artworks{
+    margin-bottom: 30px;
+}
+
+.artworks ul li{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.artworks ul li a{
+    text-decoration: none;
+    color: #A12013;    
+}
