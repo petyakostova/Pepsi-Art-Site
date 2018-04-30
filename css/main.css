@@ -336,7 +336,7 @@ address {
     color: #000000;
 }
 
-.footer-contacts {
+.footer-contacts, #social-contacts {
     margin-bottom: 0.75em;
     display: inline-block;
     text-align: center;
@@ -347,17 +347,17 @@ address {
     font-size: 1.2em;
 }
 
-.footer-social-links {
+.footer-social-links, #social-links {
     display: inline-block;
 }
 
-.footer-contacts ul li {
+.footer-contacts ul li, #social-links li {
     float: left;
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
 
-.footer-contacts ul li a i {
+.footer-contacts ul li a i, #social-links li a i {
     color: #A12013;
 }
 
@@ -446,4 +446,10 @@ address {
 .artworks ul li a{
     text-decoration: none;
     color: #A12013;    
+}
+
+.contacts-info h3{
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 20px;
 }
