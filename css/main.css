@@ -379,19 +379,21 @@ address {
 }
 
 #my-mission img {
-    max-width: 45%;
+    max-width: 47%;
     height: auto;
     float: left;
-    margin: 20px;
+    margin: 20px 30px 20px 0px;
 }
 
 #my-mission p {
-    font-size: 1.aem;
+    font-size: 1.1em;
     margin-top: 20px;
     text-align: justify;
 }
 
 #interests li {
+    /* font-family: 'Georgia', 'Calibri'; */
+    font-size: 1.1em;
     margin-left: 20px;
     list-style-type: disc;
     text-align: justify
@@ -475,4 +477,9 @@ address {
     50% {
         outline: 8px solid #A12013;
     }
+}
+
+.edwardian:first-letter {
+    font-family: 'Edwardian Script ITC';
+    font-size: 2em;
 }
