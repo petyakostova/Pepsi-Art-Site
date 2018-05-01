@@ -27,6 +27,11 @@ header {
     /* top: 0; */
     /* header to be in front of .let-me-help "LET ME HELP YOU" */
     z-index: 1;
+    border-bottom: 5px solid #A12013;
+}
+
+#without-border {
+    border-bottom: none;
 }
 
 #logo-and-slogan {
@@ -436,7 +441,7 @@ address {
 }
 
 .cover-pic img {
-    margin: 40px 0px 40px 0px;    
+    margin: 40px 0px 40px 0px;
 }
 
 .artworks {
@@ -488,6 +493,7 @@ address {
 }
 
 /* responsive design videos */
+
 @media screen and (max-width: 568px) {
     iframe {
         width: 80vw;
