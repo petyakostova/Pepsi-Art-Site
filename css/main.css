@@ -138,12 +138,12 @@ nav ul li a:hover {
     padding-top: 120px;
 }
 
-#messages {
+#main {
     width: 100%;
     margin: 0 auto;
 }
 
-#messages img {
+#main img {
     width: 100%;
 }
 
@@ -168,7 +168,7 @@ hr {
     margin-bottom: 20px;
 }
 
-#message {
+#message, .post {
     font-size: 1.3em;
     color: #A12013;
     font-weight: bold;
@@ -434,22 +434,45 @@ address {
     margin: 40px;
 }
 
-.artworks{
+.artworks {
     margin-bottom: 30px;
 }
 
-.artworks ul li{
+.artworks ul li {
     font-size: 1.5em;
     font-weight: bold;
 }
 
-.artworks ul li a{
+.artworks ul li a {
     text-decoration: none;
-    color: #A12013;    
+    color: #A12013;
 }
 
-.contacts-info h3{
+.contacts-info h3 {
     font-weight: bold;
     font-size: 1.1em;
     margin-bottom: 20px;
+}
+
+.animated-outline {
+    outline: 1px solid #A12013;
+    -webkit-animation: mymove 5s infinite;
+    /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes mymove {
+    50% {
+        outline: 8px solid #A12013;
+    }
+}
+
+/* Standard syntax */
+
+@keyframes mymove {
+    50% {
+        outline: 8px solid #A12013;
+    }
 }
