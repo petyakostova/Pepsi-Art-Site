@@ -451,11 +451,23 @@ address {
 .artworks ul li {
     font-size: 1.5em;
     font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.artworks ul li:last-child {
+    margin-bottom: 50px;
 }
 
 .artworks ul li a {
     text-decoration: none;
     color: #A12013;
+}
+
+.drawings-gallery img {
+    display: inline-block;
+    width: 50vw;
+    height: auto;
+    margin: 40px;
 }
 
 .contacts-info h3 {
