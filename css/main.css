@@ -417,21 +417,21 @@ address {
 
 .logo-pic img {
     display: inline-block;
-    width: 30vw;
+    width: 25vw;
     height: auto;
     margin: 40px;
 }
 
 .inspiration-pic img {
     display: inline-block;
-    width: 60vw;
+    width: 50vw;
     height: auto;
     margin: 40px;
 }
 
 .cover-pic img, .centered-pics img {
     display: inline-block;
-    width: 80vw;
+    width: 70vw;
     height: auto;
 }
 
