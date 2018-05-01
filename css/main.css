@@ -415,21 +415,21 @@ address {
     margin-bottom: 40px;
 }
 
-.logo-format-pic img {
+.logo-pic img {
     display: inline-block;
     max-width: 320px;
     height: auto;
     margin: 40px;
 }
 
-.keep img {
+.inspiration-pic img {
     display: inline-block;
     max-width: 700px;
     height: auto;
     margin: 40px;
 }
 
-.covers img {
+.cover-pic img {
     display: inline-block;
     max-width: 820px;
     height: auto;
