@@ -486,3 +486,11 @@ address {
     font-family: 'Edwardian Script ITC';
     font-size: 2em;
 }
+
+/* responsive design videos */
+@media screen and (max-width: 568px) {
+    iframe {
+        width: 80vw;
+        height: 80vw;
+    }
+}
