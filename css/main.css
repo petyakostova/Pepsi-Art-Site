@@ -429,10 +429,13 @@ address {
     margin: 40px;
 }
 
-.cover-pic img {
+.cover-pic img, .centered-pics img {
     display: inline-block;
-    max-width: 820px;
+    max-width: 80%;
     height: auto;
+}
+
+.cover-pic img {
     margin: 40px;
 }
 
