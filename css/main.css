@@ -514,9 +514,10 @@ address {
 
 @media screen and (max-width: 420px) {
     header {
-        padding-right: 2px;
+        padding-right: 5px;
     }
     nav ul li{
         margin-left: 0px;
     }
 }
+
