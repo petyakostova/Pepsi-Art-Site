@@ -200,7 +200,7 @@ hr {
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFFFF;
-    text-shadow: 2px 2px 5px #000;    
+    text-shadow: 2px 2px 5px #000;
 }
 
 /* shake it */
@@ -274,6 +274,7 @@ hr {
 }
 
 /* move the columns down */
+
 @media screen and (max-width: 992px) {
     .column {
         width: 100%;
@@ -503,6 +504,7 @@ address {
 }
 
 /* responsive design videos */
+
 @media screen and (max-width: 568px) {
     iframe {
         width: 80vw;
@@ -510,3 +512,11 @@ address {
     }
 }
 
+@media screen and (max-width: 420px) {
+    header {
+        padding-right: 2px;
+    }
+    nav ul li{
+        margin-left: 0px;
+    }
+}
