@@ -516,7 +516,39 @@ address {
     header {
         padding-right: 5px;
     }
-    nav ul li{
+
+    nav ul li {
         margin-left: 0px;
+    }
+}
+
+/* responsive design pictures DOESN'T WORK */
+@media screen and (max-width: 768) {
+    .landscape-orientation img {
+        width: 69vw;
+    }
+
+    .portrait-orientation img {
+        width: 69vw;
+        height: auto;
+    }
+
+    .logo-pic img {
+        width: 50vw;
+        height: auto;
+        margin: 20px;
+    }
+    
+    .inspiration-pic img {
+        width: 69vw;
+        margin: 20px 0px 10px 0px;
+    }
+    
+    .cover-pic img, .centered-pics img {
+        width: 80vw;
+    }
+    
+    .cover-pic img {
+        margin: 20px 0px 10px 0px;
     }
 }
