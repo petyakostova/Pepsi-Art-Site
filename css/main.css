@@ -211,7 +211,7 @@ hr {
     font-weight: bold;
 }
 
-/* chake it */
+/* shake it */
 
 .let-me-help {
     animation: shake 3s;
@@ -282,7 +282,6 @@ hr {
 }
 
 /* move the columns down */
-
 @media screen and (max-width: 992px) {
     .column {
         width: 100%;
@@ -429,7 +428,7 @@ address {
 
 .inspiration-pic img {
     display: inline-block;
-    width: 50vw;
+    width: 35vw;
     height: auto;
     margin: 40px;
 }
