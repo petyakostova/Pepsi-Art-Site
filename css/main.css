@@ -124,10 +124,6 @@ nav ul li a:hover {
     color: #A12013;
 }
 
-.bar:hover {
-    color: #000000;
-}
-
 @media screen and (max-width: 1224px) {
     .bar {
         display: inline;
@@ -204,11 +200,7 @@ hr {
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFFFF;
-}
-
-.let-me-help a:hover, .learn-more a:hover {
-    color: #000000;
-    font-weight: bold;
+    text-shadow: 2px 2px 5px #000;    
 }
 
 /* shake it */
@@ -435,7 +427,7 @@ address {
 
 .cover-pic img, .centered-pics img {
     display: inline-block;
-    width: 70vw;
+    width: 65vw;
     height: auto;
 }
 
