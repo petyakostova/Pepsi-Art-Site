@@ -104,7 +104,6 @@ nav ul li a {
 }
 
 /* rainbow nav Text when hover */
-
 nav ul li a:hover {
     background: #ffaf4b;
     background: -moz-linear-gradient(-45deg, #ffaf4b 0%, #f50e0e 0%, #ed1111 0%, #f03838 11%, #fc0000 28%, #f2eb29 33%, #f2eb29 33%, #57f028 41%, #2853de 63%, #2853de 74%, #2853de 74%, #2b51db 75%, #3b42c8 81%, #70128c 100%);
@@ -184,7 +183,6 @@ hr {
 }
 
 /* rainbow Background when hover */
-
 .let-me-help:hover, .learn-more:hover {
     background: #ffaf4b;
     background: -moz-linear-gradient(-45deg, #ffaf4b 0%, #f50e0e 0%, #ed1111 0%, #ee1313 1%, #f72525 9%, #f2eb29 24%, #f2eb29 33%, #57f028 41%, #2853de 63%, #2853de 74%, #2853de 74%, #2b51db 75%, #3b42c8 81%, #70128c 100%);
@@ -264,7 +262,6 @@ hr {
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
-    /* border: 1px solid yellow; DELETE */
 }
 
 .column {
@@ -274,7 +271,6 @@ hr {
 }
 
 /* move the columns down */
-
 @media screen and (max-width: 992px) {
     .column {
         width: 100%;
@@ -284,7 +280,6 @@ hr {
 
 .icon {
     margin-bottom: 20px;
-    /* border: 1px solid green; DELETE*/
 }
 
 .icon i {
@@ -295,7 +290,6 @@ hr {
 
 .column-content {
     margin: 15px 0px;
-    /* border: 1px solid red;DELETE */
 }
 
 .column-content h3 {
@@ -389,7 +383,6 @@ address {
 }
 
 #interests li {
-    /* font-family: 'Georgia', 'Calibri'; */
     font-size: 1.1em;
     margin-left: 20px;
     list-style-type: disc;
@@ -483,7 +476,6 @@ address {
 }
 
 /* Chrome, Safari, Opera */
-
 @-webkit-keyframes mymove {
     50% {
         outline: 8px solid #A12013;
@@ -491,7 +483,6 @@ address {
 }
 
 /* Standard syntax */
-
 @keyframes mymove {
     50% {
         outline: 8px solid #A12013;
@@ -504,7 +495,6 @@ address {
 }
 
 /* responsive design videos */
-
 @media screen and (max-width: 568px) {
     iframe {
         width: 80vw;
@@ -522,8 +512,8 @@ address {
     }
 }
 
-/* responsive design pictures DOESN'T WORK */
-@media screen and (max-width: 768) {
+/* responsive design pictures look better */
+@media screen and (max-width: 768px) {
     .landscape-orientation img {
         width: 69vw;
     }
@@ -538,16 +528,16 @@ address {
         height: auto;
         margin: 20px;
     }
-    
+
     .inspiration-pic img {
         width: 69vw;
         margin: 20px 0px 10px 0px;
     }
-    
+
     .cover-pic img, .centered-pics img {
         width: 80vw;
     }
-    
+
     .cover-pic img {
         margin: 20px 0px 10px 0px;
     }
