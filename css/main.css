@@ -282,7 +282,7 @@ hr {
     margin-bottom: 20px;
 }
 
-.icon i {
+.icon span {
     border: 3px solid #A12013;
     border-radius: 50%;
     padding: 20px;
@@ -320,7 +320,7 @@ address {
     bottom: 25px;
 }
 
-#go-back-to-top i {
+#go-back-to-top span {
     border: 3px solid #A12013;
     border-radius: 50%;
     padding: 8px;
@@ -348,7 +348,7 @@ address {
     margin-right: 0.5em;
 }
 
-.footer-contacts ul li a i, #social-links li a i {
+.footer-contacts ul li a span, #social-links li a span {
     color: #A12013;
 }
 
@@ -360,7 +360,7 @@ address {
     color: #A12013;
 }
 
-.author i {
+.author span {
     color: #A12013;
 }
 
