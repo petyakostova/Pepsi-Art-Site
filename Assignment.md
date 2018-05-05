@@ -1,6 +1,6 @@
 # Pepsi-Art-Site
 
-This document describes the final assignment in HTML & CSS Course of Coding Girls and Trio Interactive International.
+###### This document describes the final assignment in HTML & CSS Course of Coding Girls and Trio Interactive International.
 
 ## Project Description
 
